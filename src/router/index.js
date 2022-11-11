@@ -30,7 +30,7 @@ const router = createRouter({
       component: FormView,
       meta:
       {
-        layout: "Main"
+        layout: "Default"
       }
     }
   ]

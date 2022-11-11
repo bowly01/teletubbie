@@ -13,6 +13,10 @@
         class="bg-teal-500 rounded-lg p-2 font-itim text-lg text-black hover:bg-teal-600"
         >Profile</router-link
       >
+      <router-link
+        to="/form"
+        class="bg-teal-500 rounded-lg p-2 font-itim text-lg text-black hover:bg-teal-600"
+        >Form</router-link>
     </div>
     <div class="container mx-auto">
       <slot />

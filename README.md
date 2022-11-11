@@ -29,3 +29,18 @@ npm run build
 ```
 # dev_vue101
 # dev_vue101
+
+
+# deploy
+
+> แก้ไช vite.config.js ให้มี base ตามด้วย "/<Repo name>/"
+```bash
+npm run build
+
+```
+
+> `git add dist -f`
+
+> `git commit -m "deploy"`
+
+> `git subtree push --prefix dist origin `
